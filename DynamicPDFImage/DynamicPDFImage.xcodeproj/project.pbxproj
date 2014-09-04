@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017E9D6B19AF6D140078242F /* PWDynamicPDFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */; };
+		01DAC71719AB835200355FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC71619AB835200355FC3 /* main.m */; };
+		01DAC71A19AB835200355FC3 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC71919AB835200355FC3 /* Document.m */; };
+		01DAC71D19AB835200355FC3 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAC71B19AB835200355FC3 /* Document.xib */; };
+		01DAC72219AB835200355FC3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAC72019AB835200355FC3 /* MainMenu.xib */; };
+		01DAC73B19AB83A300355FC3 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC73A19AB83A300355FC3 /* MyView.m */; };
+		01DAC73D19AB83CB00355FC3 /* CheckBoxOn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01DAC73C19AB83CB00355FC3 /* CheckBoxOn.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017E9D6919AF6D140078242F /* PWDynamicPDFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDynamicPDFImage.h; sourceTree = "<group>"; };
+		017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDynamicPDFImage.m; sourceTree = "<group>"; };
+		01DAC71119AB835200355FC3 /* DynamicPDFImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicPDFImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DAC71519AB835200355FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DAC71619AB835200355FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01DAC71819AB835200355FC3 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		01DAC71919AB835200355FC3 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		01DAC71C19AB835200355FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		01DAC72119AB835200355FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01DAC73919AB83A300355FC3 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		01DAC73A19AB83A300355FC3 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		01DAC73C19AB83CB00355FC3 /* CheckBoxOn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CheckBoxOn.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DAC70E19AB835200355FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DAC70819AB835200355FC3 = {
+			isa = PBXGroup;
+			children = (
+				01DAC71319AB835200355FC3 /* PDFBlending */,
+				01DAC71219AB835200355FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DAC71219AB835200355FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DAC71119AB835200355FC3 /* DynamicPDFImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DAC71319AB835200355FC3 /* PDFBlending */ = {
+			isa = PBXGroup;
+			children = (
+				01DAC71819AB835200355FC3 /* Document.h */,
+				01DAC71919AB835200355FC3 /* Document.m */,
+				01DAC73919AB83A300355FC3 /* MyView.h */,
+				01DAC73A19AB83A300355FC3 /* MyView.m */,
+				017E9D6919AF6D140078242F /* PWDynamicPDFImage.h */,
+				017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */,
+				01DAC73C19AB83CB00355FC3 /* CheckBoxOn.pdf */,
+				01DAC71B19AB835200355FC3 /* Document.xib */,
+				01DAC72019AB835200355FC3 /* MainMenu.xib */,
+				01DAC71419AB835200355FC3 /* Supporting Files */,
+			);
+			name = PDFBlending;
+			path = DynamicPDFImage;
+			sourceTree = "<group>";
+		};
+		01DAC71419AB835200355FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DAC71519AB835200355FC3 /* Info.plist */,
+				01DAC71619AB835200355FC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DAC71019AB835200355FC3 /* DynamicPDFImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DAC73119AB835200355FC3 /* Build configuration list for PBXNativeTarget "DynamicPDFImage" */;
+			buildPhases = (
+				01DAC70D19AB835200355FC3 /* Sources */,
+				01DAC70E19AB835200355FC3 /* Frameworks */,
+				01DAC70F19AB835200355FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicPDFImage;
+			productName = PDFBlending;
+			productReference = 01DAC71119AB835200355FC3 /* DynamicPDFImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DAC70919AB835200355FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ProjectWizards;
+				TargetAttributes = {
+					01DAC71019AB835200355FC3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 01DAC70C19AB835200355FC3 /* Build configuration list for PBXProject "DynamicPDFImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DAC70819AB835200355FC3;
+			productRefGroup = 01DAC71219AB835200355FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DAC71019AB835200355FC3 /* DynamicPDFImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DAC70F19AB835200355FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DAC71D19AB835200355FC3 /* Document.xib in Resources */,
+				01DAC73D19AB83CB00355FC3 /* CheckBoxOn.pdf in Resources */,
+				01DAC72219AB835200355FC3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DAC70D19AB835200355FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DAC71A19AB835200355FC3 /* Document.m in Sources */,
+				01DAC71719AB835200355FC3 /* main.m in Sources */,
+				01DAC73B19AB83A300355FC3 /* MyView.m in Sources */,
+				017E9D6B19AF6D140078242F /* PWDynamicPDFImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01DAC71B19AB835200355FC3 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DAC71C19AB835200355FC3 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		01DAC72019AB835200355FC3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DAC72119AB835200355FC3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DAC72F19AB835200355FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01DAC73019AB835200355FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01DAC73219AB835200355FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DynamicPDFImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = DynamicPDFImage;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		01DAC73319AB835200355FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DynamicPDFImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = DynamicPDFImage;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DAC70C19AB835200355FC3 /* Build configuration list for PBXProject "DynamicPDFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DAC72F19AB835200355FC3 /* Debug */,
+				01DAC73019AB835200355FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DAC73119AB835200355FC3 /* Build configuration list for PBXNativeTarget "DynamicPDFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DAC73219AB835200355FC3 /* Debug */,
+				01DAC73319AB835200355FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DAC70919AB835200355FC3 /* Project object */;
+}
