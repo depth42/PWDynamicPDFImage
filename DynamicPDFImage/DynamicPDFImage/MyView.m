@@ -13,6 +13,7 @@
 {
     PWDynamicPDFImage* _image;
     PWDynamicPDFImage* _image2;
+    PWDynamicPDFImage* _image3;
 }
 
 - (PWDynamicPDFImage*)image
@@ -29,6 +30,13 @@
     return _image2;
 }
 
+- (PWDynamicPDFImage*)image3
+{
+    if(!_image3)
+        _image3 = [PWDynamicPDFImage imageWithName:@"Arrow" bundle:nil];
+    return _image3;
+}
+
 - (void)drawRect:(NSRect)dirtyRect
 {
     CGContextRef ctx = (CGContextRef)[NSGraphicsContext currentContext].graphicsPort;
@@ -38,12 +46,12 @@
     CGContextSetRGBFillColor(ctx, 1.0, 0.0, 0.0, 1.0);
     [self.image drawInRect:CGRectMake(100, 100, 100, 100) withFraction:1.0];
 
-    CGContextSetRGBFillColor(ctx, 0.0, 1.0, 0.0, 1.0);
-    [self.image drawInRect:CGRectMake(200, 140, 100, 100) withFraction:1.0];
-
     CGContextSetRGBStrokeColor(ctx, 0.0, 0.0, 1.0, 1.0);
     CGContextSetRGBFillColor(ctx, 0.0, 0.0, 1.0, 1.0);
     [self.image2 drawInRect:CGRectMake(40, 190, 100, 100) withFraction:1.0];
+
+    CGContextSetRGBFillColor(ctx, 0.0, 1.0, 0.0, 1.0);
+    [self.image3 drawInRect:CGRectMake(200, 140, 100, 100) withFraction:1.0];
 }
 
 @end

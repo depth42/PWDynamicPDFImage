@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0152B1BE19B9FA07000474E6 /* Clock.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0152B1BD19B9FA07000474E6 /* Clock.pdf */; };
+		0152B1C019BA08BA000474E6 /* Arrow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0152B1BF19BA08BA000474E6 /* Arrow.pdf */; };
 		017E9D6B19AF6D140078242F /* PWDynamicPDFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */; };
 		01DAC71719AB835200355FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC71619AB835200355FC3 /* main.m */; };
 		01DAC71A19AB835200355FC3 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC71919AB835200355FC3 /* Document.m */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0152B1BD19B9FA07000474E6 /* Clock.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Clock.pdf; sourceTree = "<group>"; };
+		0152B1BF19BA08BA000474E6 /* Arrow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Arrow.pdf; sourceTree = "<group>"; };
 		017E9D6919AF6D140078242F /* PWDynamicPDFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDynamicPDFImage.h; sourceTree = "<group>"; };
 		017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDynamicPDFImage.m; sourceTree = "<group>"; };
 		01DAC71119AB835200355FC3 /* DynamicPDFImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicPDFImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				017E9D6A19AF6D140078242F /* PWDynamicPDFImage.m */,
 				0152B1BD19B9FA07000474E6 /* Clock.pdf */,
 				01DAC73C19AB83CB00355FC3 /* CheckBoxOn.pdf */,
+				0152B1BF19BA08BA000474E6 /* Arrow.pdf */,
 				01DAC71B19AB835200355FC3 /* Document.xib */,
 				01DAC72019AB835200355FC3 /* MainMenu.xib */,
 				01DAC71419AB835200355FC3 /* Supporting Files */,
@@ -148,6 +151,7 @@
 				01DAC71D19AB835200355FC3 /* Document.xib in Resources */,
 				0152B1BE19B9FA07000474E6 /* Clock.pdf in Resources */,
 				01DAC73D19AB83CB00355FC3 /* CheckBoxOn.pdf in Resources */,
+				0152B1C019BA08BA000474E6 /* Arrow.pdf in Resources */,
 				01DAC72219AB835200355FC3 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -69,6 +69,7 @@
         CGPDFOperatorTableSetCallback(table, "B*", &operator_BStar);
         CGPDFOperatorTableSetCallback(table, "c",  &operator_c);
         CGPDFOperatorTableSetCallback(table, "cm", &operator_cm);
+        CGPDFOperatorTableSetCallback(table, "Do", &operator_Do);
         CGPDFOperatorTableSetCallback(table, "f",  &operator_f);
         CGPDFOperatorTableSetCallback(table, "f*", &operator_fStar);
         CGPDFOperatorTableSetCallback(table, "j",  &operator_j);
@@ -172,6 +173,11 @@ static void operator_c(CGPDFScannerRef scanner, void* info)
 static void operator_cm(CGPDFScannerRef scanner, void* info)
 {
     CGContextConcatCTM((CGContextRef)info, popTransform(scanner));
+}
+
+static void operator_Do(CGPDFScannerRef scanner, void* info)
+{
+    NSCAssert(NO, @"Attention: The pdf uses named XObjects which are currently unsupported.");
 }
 
 static void operator_f(CGPDFScannerRef scanner, void* info)
