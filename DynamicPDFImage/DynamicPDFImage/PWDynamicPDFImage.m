@@ -16,10 +16,8 @@
 
 - (void)dealloc
 {
-    if(_pdfDocument)
-        CFRelease(_pdfDocument);
-    if(_stream)
-        CFRelease(_stream);
+    CGPDFContentStreamRelease(_stream);
+    CGPDFDocumentRelease(_pdfDocument);
 }
 
 + (PWDynamicPDFImage*)imageWithURL:(NSURL*)URL
@@ -30,7 +28,7 @@
     if(!pdf)
         return nil;
     PWDynamicPDFImage* image = [[self alloc] initWithPDF:pdf];
-    CFRelease(pdf);
+    CGPDFDocumentRelease(pdf);
     return image;
 }
 
